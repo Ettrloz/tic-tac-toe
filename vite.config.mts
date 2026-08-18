@@ -3,6 +3,6 @@ import unocss from 'unocss/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/tic-tact-toe',
+  base: '/tic-tac-toe',
   plugins: [unocss(), react()]
 });
