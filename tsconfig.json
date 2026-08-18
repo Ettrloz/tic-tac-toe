@@ -1,0 +1,12 @@
+{
+  "extends": "@ettrloz/typescript-standard/tsconfig/base",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "rootDir": "src",
+    "types": ["vite/client"]
+  },
+  "files": ["definitions.d.ts"],
+  "include": ["src"]
+}
